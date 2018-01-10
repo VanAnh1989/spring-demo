@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1" />
+<title>Insert title here</title>
+<link  rel="stylesheet" type="text/css" th:href="@{/css/my.css}"/>
+</head>
+<body>
+	<div class="center-align">
+		<h1>This Is Your Result</h1>
+		<p>User Name : <span th:text="${user}" ></span></p>
+		<p>Pass Word : <span th:text="${pass}" ></span></p>
+	</div>
+</body>
+</html>

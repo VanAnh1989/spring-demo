@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/my.css}"/>
+	<script type="text/javascript" th:src="@{/js/my.js}"></script>
+	<script type="text/javascript" th:src="@{/js/jquery-3.2.1.min.js}"></script>
+</head>
+<body>
+	<div class="center-text">
+		<table>
+			<tr>
+				<td colspan="2"><h1 style="text-align:center">Well Come to Spring</h1></td>
+			</tr>
+			<tr>
+				<td>User name</td>
+				<td><input type="text" name="user" placeholder="User name" id="user"/></td>
+			</tr>
+			<tr>
+				<td>Pass Word</td>
+				<td><input type="text" name="pass" placeholder="User pass" id="pass" /></td>
+			</tr>
+			<tr>
+				<td>
+					<button onclick="DangKy()">Dang ky</button>	
+				</td>
+				<td>
+					<button onclick="DangNhap()">Dang Nhap</button>
+				</td>
+			</tr>
+		</table>
+		<textarea rows="10" cols="30" id="mail"></textarea>
+		<button onclick="sendMail()">Send mail</button>
+	</div>
+</body>
+</html>
