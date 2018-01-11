@@ -1,0 +1,5 @@
+com\demo\DAO\CrudFunction.class
+com\demo\model\User.class
+com\demo\controller\HomeController.class
+com\demo\DAO\ConfigDB.class
+com\demo\factory\user\Function.class
